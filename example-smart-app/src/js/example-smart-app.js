@@ -47,12 +47,14 @@
       lname: {value: ''},
       gender: {value: ''},
       birthdate: {value: ''},
-      height: {value: ''},
-      systolicbp: {value: ''},
-      diastolicbp: {value: ''},
-      ldl: {value: ''},
-      hdl: {value: ''},
       access_token: {value: ''},
+      code: {value: ''},
+      expires_in: {value: ''},
+      id_token: {value: ''},
+      patient: {value: ''},
+      scope: {value: ''},
+      state: {value: ''},
+      token_type: {value: ''},
     };
   }
 
@@ -63,9 +65,14 @@
     $('#lname').html(p.lname);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
-    $('#height').html(p.height);
-    $('#systolicbp').html(p.systolicbp);
-    $('#diastolicbp').html(p.diastolicbp);
+    $('#access_token').html(p.access_token);
+    $('#code').html(p.code);
+    $('#expires_in').html(p.expires_in);
+    $('#id_token').html(p.id_token);
+    $('#patient').html(p.patient);
+    $('#scope').html(p.scope);
+    $('#state').html(p.state);
+    $('#token_type').html(p.token_type);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
   };
