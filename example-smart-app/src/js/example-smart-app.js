@@ -28,6 +28,13 @@
           p.fname = fname;
           p.lname = lname;
           p.access_token = smart.tokenResponse.access_token;
+          p.code = smart.tokenResponse.code;
+          p.expires_in = smart.tokenResponse.expires_in;
+          p.id_token = smart.tokenResponse.id_token;
+          p.patient = smart.tokenResponse.patient;
+          p.scope = smart.tokenResponse.scope;
+          p.state = smart.tokenResponse.state;
+          p.token_type = smart.tokenResponse.token_type;
 
           ret.resolve(p);
         });
